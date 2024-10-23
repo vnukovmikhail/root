@@ -1,0 +1,8 @@
+* {
+    color: white;
+}
+
+@font-face {
+    font-family: PoppinsB;
+    src: url('../fonts/Poppins-Bold.ttf');
+}
