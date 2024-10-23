@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
 }
@@ -15,6 +19,8 @@ body {
 .header_contacts,
 .header_nav {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header_shedule,
@@ -32,8 +38,7 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 100px;
-
-    background: firebrick;
+    border: 1px solid rgba(0, 0, 0, .1);
 }
 
 .header__navigation div:not(:last-child) {
