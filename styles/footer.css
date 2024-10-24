@@ -1,0 +1,19 @@
+.footer {
+    height: 520px;
+    background: #020202;
+    padding: 0 150px 0 150px;
+}
+
+.footer div {
+    color: white;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer__middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}

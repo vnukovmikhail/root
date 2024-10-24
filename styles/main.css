@@ -20,10 +20,12 @@
     font-size: 13px;
 }
 
-.new_products_list {
+.new_products_list, 
+.custom_builds {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 350px;
 }
 
 .new_product {
@@ -74,3 +76,40 @@
 }
 
 /* Custom Builds */
+.custom_builds {
+    background: skyblue;
+    margin: 0 150px 0 150px;
+}
+
+.custom_builds_preview {
+    height: 350px;
+    width: 260px;
+    background: tomato;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* MSI Laptops */
+.msi_laptops_selector {
+    height: 80px;
+    padding-bottom: 15px;
+    margin: 0 150px 0 150px;
+    background: cornflowerblue;
+    display: flex;
+    align-items: end;
+}
+
+.msi_laptops_selector div:not(:last-child) {
+    margin-right: 20px;
+} 
+
+/* Partners */
+.partners {
+    margin: 65px 150px 70px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

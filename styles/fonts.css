@@ -13,3 +13,32 @@
     color:#666666; 
     text-decoration: line-through;
 }
+
+.preview-text {
+    color: white;
+    font-size: 30px;
+    font-family: PoppinsB;
+    position: absolute;
+    width: 50%;
+    text-align: center;
+}
+
+.preview-link {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    bottom: 20px;
+}
+
+.highlighted {
+    font-family: PoppinsB;
+    text-decoration: underline 2px;
+    text-decoration-color: #0156FF;
+    text-underline-offset: 7px;
+}
+
+.hided {
+    font-family: PoppinsB;
+    color: #838383;
+}
+
