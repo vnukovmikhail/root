@@ -1,37 +1,41 @@
-/* New Products */
-.new_products {
-    margin: 35px 150px 0 150px;
+.products,
+.products_selector,
+.ad,
+.partners,
+.info,
+.extra {
+    margin: 0 250px 0 250px;
 }
 
-.new_products_text {
+.products_header_text {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 15px;
+    margin-top: 35px;
 }
 
-.new_products_text div:first-child {
+.products_header_text div:first-child {
     font-family: PoppinsB;
     font-size: 22px;
 }
 
-.new_products_text div:last-child a {
+.products_header_text div:last-child a {
     color: #0156FF;
     font-size: 13px;
 }
 
-.new_products_list, 
-.custom_builds {
+.products_list {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 350px;
 }
 
-.new_product {
+.product {
     border: 1px solid lightcoral;
-    height: 350px;
-    width: 260px;
+    height: 100%;
+    width: 230px;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -39,51 +43,56 @@
     padding: 0 25px 0 25px;
 }
 
-.product_info {
-    height: 60px;
-    overflow: hidden;
-    text-overflow: ellipsis;
+.product_info,
+.product_availability {
+    align-self: self-start;
 }
 
-.price_and_sale {
-    height: 75px;
+.product_info {
+    height: 70px;
+    font-size: 15px;
+    overflow:hidden;
+    font-family: PoppinsR;
+}
+
+.product_availability {
+    color: #78A962;
+}
+
+.product_rating {
+    height: 30px;
+    color: #E9A426;
+}
+
+.product_price {
+    height: 65px;
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: center;
 }
 
-.availability {
-    align-self: center;
-}
-
-.placeholder {
+.placeholder { /*IMAGE OF PRODUCT*/
     background: lightcoral;
     height: 150px;
     width: 150px;
     align-self: center;
 }
 
-/* Advertising */
+/* Advertising */ /*???*/
 .ad {
-    margin: 0 150px 0 150px;
+    background: black;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
-.ad div {
-    background: lightyellow;
-    height: 70px;
-    width: 100%;
-}
-
-/* Custom Builds */
-.custom_builds {
-    background: skyblue;
-    margin: 0 150px 0 150px;
-}
-
-.custom_builds_preview {
-    height: 350px;
-    width: 260px;
+/* Custom Products List */
+.product_preview {
+    height: 100%;
+    width: 230px;
     background: tomato;
     display: flex;
     flex-direction: column;
@@ -92,24 +101,125 @@
     position: relative;
 }
 
-/* MSI Laptops */
-.msi_laptops_selector {
+/*MSI Laptops*/
+.products_selector {
     height: 80px;
     padding-bottom: 15px;
-    margin: 0 150px 0 150px;
-    background: cornflowerblue;
     display: flex;
     align-items: end;
 }
 
-.msi_laptops_selector div:not(:last-child) {
+.products_selector div:not(:last-child) {
     margin-right: 20px;
-} 
+}  
 
 /* Partners */
 .partners {
-    margin: 65px 150px 70px 150px;
+    margin-top: 65px;
+    margin-bottom: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/* Info */
+.info {
+    margin-bottom: 50px;
+}
+
+.info_title {
+    font-size: 22px;
+    font-family: PoppinsB;
+    margin-bottom: 20px;
+}
+
+.info_container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.info_item {
+    height: 325px;
+    width: 225px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info_preview {
+    width: 100%;
+    height: 150px;
+}
+
+.info_text {
+    width: 90%;
+    height: 130px;
+    font-size: 12px;
+    font-family: PoppinsR;
+    text-align: center;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.info_date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info_date p {
+    font-size: 12px;
+    font-family: PoppinsL;
+    color: #838383;
+}
+
+/* Extra */
+.extra,
+.extra_item {
+    align-items: center;
+    display: flex;
+}
+
+.extra {
+    margin-top: 60px;
+    justify-content: space-around;
+}
+
+.extra_item {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.extra_item div:nth-child(2) {
+    font-size: 18px;
+    font-family: PoppinsB;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.extra_item div:last-child {
+    font-size: 14px;
+    font-family: PoppinsR;
+    text-align: center;
+    width: 265px;
+    margin-bottom: 45px;
+}
+
+/* Templates Images */
+.custom-builds {
+    background: url('../images/product-previews/custom-builds.png');
+}
+
+.msi-laptops {
+    background: url('../images/product-previews/msi-laptops.png');
+}
+
+.desktops {
+    background: url('../images/product-previews/desktops.png');
+}
+
+.gaming-monitors {
+    background: url('../images/product-previews/gaming-monitors.png');
 }

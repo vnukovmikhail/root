@@ -1,11 +1,17 @@
 .footer {
     height: 520px;
     background: #020202;
-    padding: 0 150px 0 150px;
+    padding: 0 250px 0 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
 
-.footer div {
+.footer a {
     color: white;
+    font-size: 13px;
+    font-family: PoppinsL;
+    text-decoration: none;
 }
 
 .footer ul {
@@ -16,4 +22,68 @@
     display: flex;
     justify-content: space-between;
     align-items: start;
+}
+
+.footer__bottom {
+    height: 60px;
+    color: #838383;
+    font-size: 14px;
+    font-family: PoppinsM;
+    border-top: #838383 1px solid;
+}
+
+.footer_contacts a {
+    font-size: 14px;
+    font-family: PoppinsM;
+}
+
+.footer_contacts a:not(:last-child) {
+    margin-right: 10px;
+}
+
+.footer__bottom,
+.payment_methods {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.payment_methods img:not(:last-child) {
+    margin-right: 10px;
+}
+
+.footer_title {
+    margin-bottom: 55px;
+}
+
+.footer_title div:last-child {
+    color: #838383;
+    font-size: 16px;
+    font-family: PoppinsM;
+}
+
+.footer_title div:first-child {
+    color: white;
+    font-size: 38px;
+    font-family: PoppinsB;
+}
+
+.footer__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_signature {
+    display: flex;
+}
+
+.footer_signature div input {
+    margin-right: 25px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    padding-left: 15px;
+    font-size: 14px;
+    font-family: PoppinsL;
 }

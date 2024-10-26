@@ -3,6 +3,35 @@
     src: url('../fonts/Poppins-Bold.ttf');
 }
 
+@font-face {
+    font-family: PoppinsR;
+    src: url('../fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: PoppinsM;
+    src: url('../fonts/Poppins-Medium.ttf');
+}
+
+@font-face {
+    font-family: PoppinsL;
+    src: url('../fonts/Poppins-Light.ttf');
+}
+
+.header-link {
+    margin-left: 5px;
+    color: white;
+    text-decoration: underline 2px;
+    text-underline-offset: 5px;
+}
+
+.header-info {
+    color: white;
+    margin-left: 5px;
+}
+
+
+
 .price {
     font-size: 22px;
     font-family: PoppinsB;
@@ -14,12 +43,14 @@
     text-decoration: line-through;
 }
 
+
+
 .preview-text {
     color: white;
     font-size: 30px;
     font-family: PoppinsB;
     position: absolute;
-    width: 50%;
+    width: 70%;
     text-align: center;
 }
 
@@ -42,3 +73,8 @@
     color: #838383;
 }
 
+.footer-title {
+    font-size: 14px;
+    font-family: PoppinsB;
+    color: #838383;
+}

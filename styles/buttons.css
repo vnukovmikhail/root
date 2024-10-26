@@ -1,4 +1,21 @@
-.primary {
+* button {
     background: none;
     border: none;
+}
+
+.press-button {
+    background: #0156FF;
+    border: none;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-family: PoppinsB;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+}
+
+.press-input {
+    height: 50px;
+    width: 400px;
 }
