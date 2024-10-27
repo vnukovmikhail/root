@@ -2,7 +2,8 @@
 .products_selector,
 .ad, .partners,
 .info, .extra,
-.comments_slider {
+.comments_slider,
+.path, .contacts {
     margin: 0 250px 0 250px;
 }
 
@@ -273,4 +274,38 @@
 
 .gaming-monitors {
     background: url('../images/product-previews/gaming-monitors.png');
+}
+
+/* Contacts */
+.path {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contacts_input_fields {
+    border: red 1px solid;
+    width: 100vw;
+    height: 100vh;
+}
+
+.contacts_title {
+    font-family: PoppinsB;
+    font-size: 32px;
+}
+
+.contacts_text {
+    font-family: PoppinsR;
+    font-size: 16px;
+}
+
+.contacts_data {
+    background: red;
+    width: 410px;
+    height: 500px;
 }

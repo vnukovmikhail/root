@@ -74,7 +74,7 @@ body {
 
 
 .header_slider > div {
-    background-color: tomato;
+    background: url('../images/msi.png');
     width: 100%;
     height: 330px;
 }
