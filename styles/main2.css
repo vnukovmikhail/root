@@ -1,0 +1,33 @@
+/* Contacts */
+.path {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contacts_input_fields {
+    border: red 1px solid;
+    width: 500px;
+    height: 100vh;
+}
+
+.contacts_title {
+    font-family: PoppinsB;
+    font-size: 32px;
+}
+
+.contacts_text {
+    font-family: PoppinsR;
+    font-size: 16px;
+}
+
+.contacts_data {
+    background: red;
+    width: 410px;
+    height: 500px;
+}
