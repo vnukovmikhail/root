@@ -4,16 +4,14 @@
     margin-bottom: 20px;
 }
 
-.contacts {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.contacts_input_fields {
+    width: 930px;
 }
 
-.contacts_input_fields {
-    border: red 1px solid;
-    width: 500px;
-    height: 100vh;
+.contacts {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
 }
 
 .contacts_title {
@@ -24,10 +22,92 @@
 .contacts_text {
     font-family: PoppinsR;
     font-size: 16px;
+    width: 500px;
+}
+
+.input_elements {
+    display: flex;
+    align-items: start;
+    margin-top: 25px;
+    flex-wrap: wrap;
+}
+.contact_input_element {
+    margin-bottom: 20px;
+}
+
+.contact_input_element:not(:nth-child(2n)) {
+    margin-right: 30px;
+}
+
+.contact_input_element div,
+.input_field div {
+    margin-bottom: 15px;
+    font-family: PoppinsB;
+    font-size: 13px;
+}
+
+.contact_input_element input {
+    width: 450px;
+    height: 50px;
+    background: none;
+    border: 1px solid #A2A6B0;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: PoppinsL;
+}
+
+.input_field {
+    width: 930px;
+    height: 275px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    margin-bottom: 125px;
+}
+
+.input_field input {
+    width: 930px;
+    height: 230px;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.2;
 }
 
 .contacts_data {
-    background: red;
+    margin-top: 130px;
+    background: #F5F7FF;
     width: 410px;
-    height: 500px;
+    height: 405px;
+}
+
+.contact_button {
+    margin-top: 15px;
+}
+
+.contacts_data_element {
+    display: flex;
+    justify-content: start;
+    align-items:center;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.contacts_data_element > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts_data_element > div div:first-child {
+    font-family: PoppinsB;
+    font-size: 18px;
+}
+
+.contacts_data_element > div div:not(:first-child) {
+    font-family: PoppinsL;
+    font-size: 13px;
+}
+
+.contacts_data_element > img {
+    align-self: self-start;
 }
