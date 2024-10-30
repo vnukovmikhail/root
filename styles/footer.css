@@ -1,10 +1,11 @@
 .footer {
     height: 520px;
     background: #020202;
-    padding: 0 250px 0 250px;
+    width: 100%;
+    padding: 0 250px;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: end; 
 }
 
 .footer a {
@@ -86,4 +87,4 @@
     padding-left: 15px;
     font-size: 14px;
     font-family: PoppinsL;
-}
+} 

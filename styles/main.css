@@ -1,14 +1,5 @@
-/* .products,
-.products_selector,
-.ad, .partners,
-.info,
-.comments_slider,
-.path, .contacts {
-    margin: 0 250px 0 250px;
-} */
-
 .main {
-    margin: 0 250px 0 250px;
+    margin:  0 250px 0 250px;
 }
 
 .products_header_text {
