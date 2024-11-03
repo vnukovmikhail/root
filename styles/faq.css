@@ -1,0 +1,22 @@
+.nav_box {
+    background: #F5F7FF;
+    height: min-content;
+    padding: 25px;
+    margin-left: 30px;
+    width: 330px;
+    margin-top: 130px;
+}
+
+.nav_box a {
+    text-decoration: none;
+    color: black;
+}
+
+.main section:first-child {
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}

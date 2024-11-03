@@ -1,0 +1,50 @@
+.comments {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.comments_slider {
+    padding: 30px 120px;
+    height: 310px;
+    background: #F5F7FF;
+}
+
+#comment_apostrophe {
+    font-size: 96px;
+    font-style: italic;
+    font-family: PoppinsL;
+    margin-right: 35px;
+}
+
+#comment_text,
+#comment_author {
+    font-family: PoppinsR;
+}
+
+#comment_text {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#comment_author{
+    font-size: 14px;
+}
+
+#comment_author {
+    text-align: end;
+}
+
+.comment_description {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+} 
+
+.comment_bottom {
+    margin-top: 20px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

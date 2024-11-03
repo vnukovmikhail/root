@@ -1,0 +1,33 @@
+.block {
+    width: 100%;
+    height: 680px;
+    background: black;
+    padding: 95px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.block > div {
+    width: 565px;
+    height: 380px;
+    color: white;
+    font-size: 44px;
+    font-family: PoppinsM;
+}
+
+.block > div > div:nth-child(2) {
+    margin-top: 15px;
+    font-size: 18px;
+    font-family: PoppinsL;
+}
+
+.block:nth-child(2n) {
+    background: white;
+    flex-direction: row-reverse;
+}
+
+.block:nth-child(2n) div {
+    color: black;
+}

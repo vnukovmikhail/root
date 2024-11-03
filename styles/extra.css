@@ -1,0 +1,33 @@
+.extra,
+.extra_item {
+    align-items: center;
+    display: flex;
+}
+
+.extra {
+    margin-top: 60px;
+    justify-content: space-around;
+    background: #F5F7FF;
+    padding: 60px 250px 0 250px;
+}
+
+.extra_item {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.extra_item div:nth-child(2) {
+    font-size: 18px;
+    font-family: PoppinsB;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.extra_item div:last-child {
+    font-size: 14px;
+    font-family: PoppinsR;
+    text-align: center;
+    width: 265px;
+    margin-bottom: 45px;
+}

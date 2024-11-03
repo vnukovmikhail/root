@@ -18,6 +18,11 @@
     src: url('../fonts/Poppins-Light.ttf');
 }
 
+@font-face {
+    font-family: PoppinsSB;
+    src: url('../fonts/Poppins-SemiBold.ttf');
+}
+
 .header-link {
     margin-left: 5px;
     color: white;
@@ -77,4 +82,23 @@
     font-size: 14px;
     font-family: PoppinsB;
     color: #838383;
+}
+
+
+/* h1-h4 */
+h1 {
+    font-family: PoppinsB;
+}
+
+h2 {
+    font-family: PoppinsSB;
+}
+
+h3 {
+    font-family: PoppinsSB;
+    font-size: 16px;
+}
+
+h4 {
+    font-family: PoppinsL;
 }
