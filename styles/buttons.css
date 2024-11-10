@@ -30,3 +30,22 @@
     height: 100%;
     width: 180px;
 }
+
+.interact-button {
+    border: #A2A6B0 1px solid;
+    color: #A2A6B0;
+    padding: 4px 11px;
+    border-radius: 150px;
+}
+.interact-button * {
+    color: #A2A6B0;
+}
+.interact-button:focus,
+.interact-button:focus > * {
+    background: #F5F7FF;
+    border: none;
+    color: black;
+}
+.filter .interact-button {
+    padding: 4px 25px;
+}
