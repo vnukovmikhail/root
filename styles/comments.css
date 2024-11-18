@@ -48,3 +48,24 @@
     align-items: center;
     justify-content: space-between;
 }
+
+@media (max-width: 600px) {
+    .comments_slider {
+        padding: 30px 5px;
+    }
+
+    #comment_text {
+        font-size: 15px;
+    }
+    #comment_apostrophe {
+        font-size: 64px;
+    }
+    .comment_bottom {
+        margin: 0 5px;
+    }
+    .comment-button {
+        width: auto;
+        height: auto;
+        padding: 5px 15px;
+    }
+}

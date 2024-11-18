@@ -266,4 +266,15 @@ h4 a {
         height: 30px;
         width: 100%;
     }
+
+    /*  */
+
+    .header_slider {
+        width: 100%;
+        height: auto;
+        overflow: scroll;
+    }
+    /* .header_slider img {
+        width: ;
+    } */
 }

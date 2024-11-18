@@ -2,3 +2,9 @@
     /* margin:  135px 250px 0 250px; */
     margin:  135px 13% 0 13%;
 }
+
+@media (max-width: 600px) {
+    .main {
+        margin:  140px 0 0 0;
+    }
+}

@@ -181,3 +181,25 @@
 .gaming-monitors {
     background: url('../images/product-previews/gaming-monitors.png');
 }
+
+@media (max-width: 600px) {
+    .info_title {
+        font-size: 20px;
+        padding: 0 15px;
+    }
+
+    .info_container {
+        gap: 5px;
+        justify-content: center;
+    }
+    /* .info_container .info_item:nth-child(2n) {
+        display: none;
+    } */
+    .info_item {
+        height: 300px;
+        width: 190px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
