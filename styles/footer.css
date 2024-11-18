@@ -80,7 +80,6 @@
 }
 
 .footer_signature div input {
-    margin-right: 25px;
     background: none;
     border: 1px solid white;
     color: white;
@@ -88,3 +87,55 @@
     font-size: 14px;
     font-family: PoppinsL;
 } 
+
+@media (max-width: 600px) {
+    .footer {
+        margin-top: 1000px;
+        padding: 0;
+        justify-content: start;
+        padding: 45px 5px 0 5px;
+        height: 100%;
+    }
+    
+    .footer_title div:first-child {
+        font-size: 16px;
+    }
+    .footer_title div:last-child {
+        font-size: 13px;
+    }
+
+    .press-input {
+        height: 35px;
+        width: 100%;
+    }
+
+    .footer_signature {
+        flex-direction: column;
+        align-self: start;
+        gap: 10px;
+    }
+    .press-button {
+        font-size: 12px;
+        padding: 10px 25px;
+        width: auto;
+        height: auto;
+    }
+
+    .footer__middle div:nth-child(2n), 
+    .footer_contacts {
+        display: none;
+    }
+    .footer__middle {
+        gap: 10px;
+    }
+
+    .footer__bottom {
+        height: 40px;
+    }
+    .footer__bottom div:last-child {
+        font-size: 80%;
+    }
+    .payment_methods img:not(:last-child) {
+        margin-right: 2px;
+    }
+}
