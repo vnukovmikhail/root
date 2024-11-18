@@ -38,7 +38,7 @@ html {
 
 @media (max-width: 600px) {
     html {
-        scroll-padding-top: 140px;
+        scroll-padding-top: 115px;
     }
     .nav_box {
         margin-left: 0;

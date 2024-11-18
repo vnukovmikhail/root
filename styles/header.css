@@ -215,7 +215,7 @@ h4 a {
     }
 
     .header__navigation {
-        height: 60px;
+        height: 45px;
         border: none;
     }
 
@@ -248,7 +248,7 @@ h4 a {
 
     .header__navigation_mobile {
         display: flex;
-        height: 50px;
+        height: 40px;
         align-items: center;
         justify-content: center;
         margin: 0 10px;
