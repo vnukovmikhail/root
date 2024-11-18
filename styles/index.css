@@ -191,7 +191,7 @@
     }
 
     .info_container {
-        gap: 5px;
+        gap: 10px;
         justify-content: center;
     }
     /* .info_container .info_item:nth-child(2n) {
@@ -269,12 +269,24 @@
     }
     .product_preview {
         width: 100%;
-        background-size: contain;
+        background-size: cover;
     }
     .preview-text {
         font-size: 16px;
     }
     .preview-link {
         font-size: 11px;
+    }
+
+    /*  */
+
+    .highlighted, .hided {
+        font-size: 11px;
+    }
+    .products_selector div:not(:last-child) {
+        margin-right: 2%;
+    }
+    .products_selector {
+        height: 50px;
     }
 }
