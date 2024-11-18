@@ -20,3 +20,59 @@
     display: flex;
     justify-content: space-between;
 }
+
+html {
+    scroll-padding-top: 135px;
+}
+
+.nav_box {
+    margin-left: 0;
+    width: 300px;
+    padding: 10px;
+    margin-top: 50px;
+    position: sticky;
+    bottom: 50px;
+    top: 160px;
+    right: 0;
+}
+
+@media (max-width: 600px) {
+    html {
+        scroll-padding-top: 140px;
+    }
+    .nav_box {
+        margin-left: 0;
+        width: 140px;
+        /* padding: 10px;
+        margin-top: 50px;
+        position: sticky;
+        bottom: 50px;
+        top: 160px;
+        right: 0; */
+    }
+
+    .nav_box a > * {
+        margin-top: 10px;
+    }
+
+    h1 {
+        width: 100%;
+        font-size: 21px;
+    }
+    h2 {
+        font-size: 17px;
+    }
+    h3 {
+        font-size: 13px;
+    }
+    h4 {
+        font-size: 11px;
+    }
+    .main {
+        margin: 140px 5px 0 5px
+    }
+
+    .main section:first-child {
+        padding-right: 5vw;
+    }
+}
