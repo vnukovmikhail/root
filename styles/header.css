@@ -59,6 +59,7 @@
     text-decoration: none;
     font-family: PoppinsB;
     font-size: 14px;
+    white-space:nowrap;
 }
 
 .header_contacts * {
@@ -153,14 +154,14 @@ h4 a {
 }
 
 /* Animations */
-.header_nav div:not(:first-child) > a {
+.header_nav div > a {
     text-decoration-color: #0156FF;
     text-decoration: none;
     text-underline-offset: 7px;
     transition: .1s;
 }
 
-.header_nav div:not(:first-child):hover > a {
+.header_nav div:hover > a {
     text-decoration: underline 3px;
     text-decoration-color: #0156FF;
     text-underline-offset: 5px;
@@ -169,4 +170,70 @@ h4 a {
     padding: 10px;
     color: #FFFFFF; */
     border-radius: 50vh;
+}
+
+@media (max-width: 600px) {
+    .header__navigation,
+    .header__main {
+        padding: 0 3px;
+    }
+
+    .header__main * {
+        font-size: 11px;
+    }
+
+    .header__main {
+        height: 30px;
+    }
+
+    .header-link {
+        margin-left: 10px;
+    }
+
+    .header_contacts * {
+        margin: 0;
+        margin-top: 5px;
+    }
+    .header_contacts a:last-child {
+        margin-left: 30%;
+        margin-right: 5px;
+    }
+
+    .header_shedule, #phone-number {
+        display: none;
+    }
+
+    /*  */
+
+    #header_logo img {
+        height: 35px;
+        width: 35px;
+    }
+
+    .header__navigation {
+        height: 60px;
+    }
+
+    .header_nav {
+        justify-content: start;
+        overflow: scroll;
+        margin: 0 10px;
+    }
+    .header_nav div {
+        border: 1px solid rgba(0, 0, 0, .1);
+        border-radius: 50vh;
+        /* height: 35px; */
+        padding: 5px 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header_nav div:not(:last-child) {
+        margin-right: 5px;
+        width: auto;
+    }
+
+    .header_tools {
+        
+    }
 }

@@ -8,20 +8,30 @@
 }
 
 .content {
+    margin-top: 5px;
     margin-left: 5px;
     width: 100%;
 }
 
-.filter {
+/* .filter {
     background: #F5F7FF;
     width: 235px;
-    /* position: fixed; */
-}
+} */
 
 .filter div {
     display: flex;
     justify-content: space-between;
+    margin: 5px 0 0 0;
 }
+
+.filter section {
+    padding: 0 15px 0 15px;
+    margin-top: 7px;
+    background: #F5F7FF;
+    width: 235px;
+}
+
+
 
 .circle {
     width: 25px;
@@ -46,6 +56,7 @@
     align-self: center;
     justify-self: center;
     gap: 10px;
+    margin: 25px 0 ;
 }
 
 .page-list button:not(:last-child) {
@@ -56,7 +67,7 @@
 .content__list {
     display: grid;
     justify-content: space-around;
-    grid-template-columns: repeat(5, 230px);
+    grid-template-columns: repeat(4, 230px);
     grid-auto-rows: 345px;
     gap: 3px;
 }
@@ -112,4 +123,73 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.filter__title * {
+    text-align:justify;
+}
+
+h5 {
+    font-size: 13px;
+    font-family: PoppinsL;
+    text-align: center;
+}
+
+h4 {
+    font-size: 16px;
+    font-family: PoppinsB;
+    padding: 10px;
+}
+
+.SemiB * {
+    font-size: 14px;
+    font-family: PoppinsSB;
+    margin: 15px 0 5px 0;
+} 
+
+#filter-image {
+    padding: 0;
+}
+
+.tag__list {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    gap: 10px;
+}
+.tag {
+    background: none;
+    border: 1px solid #CACDD8;
+    border-radius: 3px;
+    padding: 7px 20px;
+    font-size: 13px;
+    font-family: PoppinsSB;
+    color: black;
+}
+
+.filter__list p,
+.filter__list button {
+    color: #CACDD8;
+    font-size: 13px;
+    font-family: PoppinsR;
+}
+.filter__list button .tag {
+    border: 2px solid #CACDD8;
+    font-family: PoppinsSB;
+}
+.filter__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.filter__list section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none !important;
 }
