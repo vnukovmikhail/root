@@ -16,8 +16,27 @@
     <header class="header">
         <section class="header__main">
             <div class="header_shedule">
-                <div>Mon-Fri:</div>
-                <div class="header-info">9:00 - 17:30</div> 
+                <div>Mon-Fri:<span class="header-info">9:00 - 17:30 &#x2B9F;</span></div>
+                 
+                <div class="header-info_menu">
+                    <div>
+                        <img src="images/icons/index/time.svg" alt="">
+                        <div>
+                            <h4>We are open:</h4>
+                            <h4>Mon-Thu: 9:00 - 17:30</h4>
+                            <h4>Fr: 9:00 - 17:30</h4>
+                            <h4>Sat: 11:00 - 17:00</h4>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/icons/index/location.svg" alt="">
+                        <h4>Address: 1234 Street Adress, City Address, 1234</h4>
+                    </div>
+                    <div>
+                        <h4>Phones: <a href="">(00) 1234 5678</a></h4>
+                        <h4>E-mail: <a href="">shop@email.com</a></h4>
+                    </div>
+                </div>
             </div>
 
             <div class="header_address">
@@ -26,15 +45,16 @@
             </div>
 
             <div class="header_contacts">
-                <div>Call Us: (+373) 1234 5678</div>
+                <div id="phone-number">Call Us: (+373) 1234 5678</div>
                 <a href="https://www.facebook.com/"><img src="images/icons/facebook.svg" alt=""></a>
                 <a href="https://www.instagram.com/"><img src="images/icons/instagram.svg" alt=""></a> 
             </div>
         </section>
 
         <section class="header__navigation">
+            
+            <a href="#" id="header_logo"><img src="images/Logo.svg" alt="logo"></a>
             <nav class="header_nav">
-                <div><a href="#"><img src="images/Logo.svg" alt="logo"></a></div>
                 <div><a href="#">Laptops</a></div>
                 <div><a href="#">Desktop PCs</a></div>
                 <div><a href="#">Networking Devices</a></div>
@@ -43,11 +63,20 @@
                 <div><a href="#">All Other Products</a></div>
                 <div><a href="#">Repairs</a></div>
             </nav>
+            
             <div class="header_tools">
                 <button><img src="images/icons/search.svg" alt="search"></button>
                 <button><img src="images/icons/cart.svg" alt="cart"></button>
             </div>
+            
         </section>
+        <section class="header__navigation_mobile">
+            <input type="text" id="search-input">
+            <button><img src="images/icons/search.svg" alt="search"></button>
+            <button><img src="images/icons/cart.svg" alt="cart"></button>
+        </section>
+        
+
     </header>
 
     <main class="main">
@@ -167,232 +196,24 @@
 
         <section class="content">
             <section class="filter__list">
+                <button class="mobile-filter">Filter [0]</button>
                 <p>Items 1-30 of 60</p>
                 <section>
-                    <button class="tag">Sort By: Position ^</button>
-                    <button class="tag">Show: 35 per page</button>
+                    <button class="tag-sort">Sort By: Position ^</button>
+                    <button class="tag-sort">Show: 35 per page</button>
                     <button><img src="/images/catalog/grid.svg" alt=""></button>
                     <button><img src="images/catalog/row.svg" alt=""></button>
                 </section>
             </section>
 
             <section class="tag__list">
+                
                 <button class="tag">TAG NAME (23) &#128308;</button>
                 <button class="tag">TAG NAME (23) &#128308;</button>
                 <button class="tag">Clear All</button>
             </section>
 
             <section class="content__list">
-                <div class="content_item">
-                    <div class="product_availability">&#9745; in stock</div>
-                    <div class="placeholder"></div>
-                    <div class="product_rating">&#9733; &#9733; &#9733; &#9733; &#9733;</div>
-                    <div class="product_info"> EX DISPLAY: Lorem ipsum dolor sit amet consectetur adipisicing elit. fdfdfdfdf  ddfd ff df</div>
-                    <div class="product_price">
-                        <div class="sale">499$</div>
-                        <div class="price">499$</div>
-                    </div>
-                </div>
-                <div class="content_item">
-                    <div class="product_availability">&#9745; in stock</div>
-                    <div class="placeholder"></div>
-                    <div class="product_rating">&#9733; &#9733; &#9733; &#9733; &#9733;</div>
-                    <div class="product_info"> EX DISPLAY: Lorem ipsum dolor sit amet consectetur adipisicing elit. fdfdfdfdf  ddfd ff df</div>
-                    <div class="product_price">
-                        <div class="sale">499$</div>
-                        <div class="price">499$</div>
-                    </div>
-                </div>
-                <div class="content_item">
-                    <div class="product_availability">&#9745; in stock</div>
-                    <div class="placeholder"></div>
-                    <div class="product_rating">&#9733; &#9733; &#9733; &#9733; &#9733;</div>
-                    <div class="product_info"> EX DISPLAY: Lorem ipsum dolor sit amet consectetur adipisicing elit. fdfdfdfdf  ddfd ff df</div>
-                    <div class="product_price">
-                        <div class="sale">499$</div>
-                        <div class="price">499$</div>
-                    </div>
-                </div>
-                <div class="content_item">
-                    <div class="product_availability">&#9745; in stock</div>
-                    <div class="placeholder"></div>
-                    <div class="product_rating">&#9733; &#9733; &#9733; &#9733; &#9733;</div>
-                    <div class="product_info"> EX DISPLAY: Lorem ipsum dolor sit amet consectetur adipisicing elit. fdfdfdfdf  ddfd ff df</div>
-                    <div class="product_price">
-                        <div class="sale">499$</div>
-                        <div class="price">499$</div>
-                    </div>
-                </div>
-                <div class="content_item">
-                    <div class="product_availability">&#9745; in stock</div>
-                    <div class="placeholder"></div>
-                    <div class="product_rating">&#9733; &#9733; &#9733; &#9733; &#9733;</div>
-                    <div class="product_info"> EX DISPLAY: Lorem ipsum dolor sit amet consectetur adipisicing elit. fdfdfdfdf  ddfd ff df</div>
-                    <div class="product_price">
-                        <div class="sale">499$</div>
-                        <div class="price">499$</div>
-                    </div>
-                </div>
-                <div class="content_item">
-                    <div class="product_availability">&#9745; in stock</div>
-                    <div class="placeholder"></div>
-                    <div class="product_rating">&#9733; &#9733; &#9733; &#9733; &#9733;</div>
-                    <div class="product_info"> EX DISPLAY: Lorem ipsum dolor sit amet consectetur adipisicing elit. fdfdfdfdf  ddfd ff df</div>
-                    <div class="product_price">
-                        <div class="sale">499$</div>
-                        <div class="price">499$</div>
-                    </div>
-                </div>
-                <div class="content_item">
-                    <div class="product_availability">&#9745; in stock</div>
-                    <div class="placeholder"></div>
-                    <div class="product_rating">&#9733; &#9733; &#9733; &#9733; &#9733;</div>
-                    <div class="product_info"> EX DISPLAY: Lorem ipsum dolor sit amet consectetur adipisicing elit. fdfdfdfdf  ddfd ff df</div>
-                    <div class="product_price">
-                        <div class="sale">499$</div>
-                        <div class="price">499$</div>
-                    </div>
-                </div>
-                <div class="content_item">
-                    <div class="product_availability">&#9745; in stock</div>
-                    <div class="placeholder"></div>
-                    <div class="product_rating">&#9733; &#9733; &#9733; &#9733; &#9733;</div>
-                    <div class="product_info"> EX DISPLAY: Lorem ipsum dolor sit amet consectetur adipisicing elit. fdfdfdfdf  ddfd ff df</div>
-                    <div class="product_price">
-                        <div class="sale">499$</div>
-                        <div class="price">499$</div>
-                    </div>
-                </div>
-                <div class="content_item">
-                    <div class="product_availability">&#9745; in stock</div>
-                    <div class="placeholder"></div>
-                    <div class="product_rating">&#9733; &#9733; &#9733; &#9733; &#9733;</div>
-                    <div class="product_info"> EX DISPLAY: Lorem ipsum dolor sit amet consectetur adipisicing elit. fdfdfdfdf  ddfd ff df</div>
-                    <div class="product_price">
-                        <div class="sale">499$</div>
-                        <div class="price">499$</div>
-                    </div>
-                </div>
-                <div class="content_item">
-                    <div class="product_availability">&#9745; in stock</div>
-                    <div class="placeholder"></div>
-                    <div class="product_rating">&#9733; &#9733; &#9733; &#9733; &#9733;</div>
-                    <div class="product_info"> EX DISPLAY: Lorem ipsum dolor sit amet consectetur adipisicing elit. fdfdfdfdf  ddfd ff df</div>
-                    <div class="product_price">
-                        <div class="sale">499$</div>
-                        <div class="price">499$</div>
-                    </div>
-                </div>
-                <div class="content_item">
-                    <div class="product_availability">&#9745; in stock</div>
-                    <div class="placeholder"></div>
-                    <div class="product_rating">&#9733; &#9733; &#9733; &#9733; &#9733;</div>
-                    <div class="product_info"> EX DISPLAY: Lorem ipsum dolor sit amet consectetur adipisicing elit. fdfdfdfdf  ddfd ff df</div>
-                    <div class="product_price">
-                        <div class="sale">499$</div>
-                        <div class="price">499$</div>
-                    </div>
-                </div>
-                <div class="content_item">
-                    <div class="product_availability">&#9745; in stock</div>
-                    <div class="placeholder"></div>
-                    <div class="product_rating">&#9733; &#9733; &#9733; &#9733; &#9733;</div>
-                    <div class="product_info"> EX DISPLAY: Lorem ipsum dolor sit amet consectetur adipisicing elit. fdfdfdfdf  ddfd ff df</div>
-                    <div class="product_price">
-                        <div class="sale">499$</div>
-                        <div class="price">499$</div>
-                    </div>
-                </div>
-                <div class="content_item">
-                    <div class="product_availability">&#9745; in stock</div>
-                    <div class="placeholder"></div>
-                    <div class="product_rating">&#9733; &#9733; &#9733; &#9733; &#9733;</div>
-                    <div class="product_info"> EX DISPLAY: Lorem ipsum dolor sit amet consectetur adipisicing elit. fdfdfdfdf  ddfd ff df</div>
-                    <div class="product_price">
-                        <div class="sale">499$</div>
-                        <div class="price">499$</div>
-                    </div>
-                </div>
-                <div class="content_item">
-                    <div class="product_availability">&#9745; in stock</div>
-                    <div class="placeholder"></div>
-                    <div class="product_rating">&#9733; &#9733; &#9733; &#9733; &#9733;</div>
-                    <div class="product_info"> EX DISPLAY: Lorem ipsum dolor sit amet consectetur adipisicing elit. fdfdfdfdf  ddfd ff df</div>
-                    <div class="product_price">
-                        <div class="sale">499$</div>
-                        <div class="price">499$</div>
-                    </div>
-                </div>
-                <div class="content_item">
-                    <div class="product_availability">&#9745; in stock</div>
-                    <div class="placeholder"></div>
-                    <div class="product_rating">&#9733; &#9733; &#9733; &#9733; &#9733;</div>
-                    <div class="product_info"> EX DISPLAY: Lorem ipsum dolor sit amet consectetur adipisicing elit. fdfdfdfdf  ddfd ff df</div>
-                    <div class="product_price">
-                        <div class="sale">499$</div>
-                        <div class="price">499$</div>
-                    </div>
-                </div>
-                <div class="content_item">
-                    <div class="product_availability">&#9745; in stock</div>
-                    <div class="placeholder"></div>
-                    <div class="product_rating">&#9733; &#9733; &#9733; &#9733; &#9733;</div>
-                    <div class="product_info"> EX DISPLAY: Lorem ipsum dolor sit amet consectetur adipisicing elit. fdfdfdfdf  ddfd ff df</div>
-                    <div class="product_price">
-                        <div class="sale">499$</div>
-                        <div class="price">499$</div>
-                    </div>
-                </div>
-                <div class="content_item">
-                    <div class="product_availability">&#9745; in stock</div>
-                    <div class="placeholder"></div>
-                    <div class="product_rating">&#9733; &#9733; &#9733; &#9733; &#9733;</div>
-                    <div class="product_info"> EX DISPLAY: Lorem ipsum dolor sit amet consectetur adipisicing elit. fdfdfdfdf  ddfd ff df</div>
-                    <div class="product_price">
-                        <div class="sale">499$</div>
-                        <div class="price">499$</div>
-                    </div>
-                </div>
-                <div class="content_item">
-                    <div class="product_availability">&#9745; in stock</div>
-                    <div class="placeholder"></div>
-                    <div class="product_rating">&#9733; &#9733; &#9733; &#9733; &#9733;</div>
-                    <div class="product_info"> EX DISPLAY: Lorem ipsum dolor sit amet consectetur adipisicing elit. fdfdfdfdf  ddfd ff df</div>
-                    <div class="product_price">
-                        <div class="sale">499$</div>
-                        <div class="price">499$</div>
-                    </div>
-                </div>
-                <div class="content_item">
-                    <div class="product_availability">&#9745; in stock</div>
-                    <div class="placeholder"></div>
-                    <div class="product_rating">&#9733; &#9733; &#9733; &#9733; &#9733;</div>
-                    <div class="product_info"> EX DISPLAY: Lorem ipsum dolor sit amet consectetur adipisicing elit. fdfdfdfdf  ddfd ff df</div>
-                    <div class="product_price">
-                        <div class="sale">499$</div>
-                        <div class="price">499$</div>
-                    </div>
-                </div>
-                <div class="content_item">
-                    <div class="product_availability">&#9745; in stock</div>
-                    <div class="placeholder"></div>
-                    <div class="product_rating">&#9733; &#9733; &#9733; &#9733; &#9733;</div>
-                    <div class="product_info"> EX DISPLAY: Lorem ipsum dolor sit amet consectetur adipisicing elit. fdfdfdfdf  ddfd ff df</div>
-                    <div class="product_price">
-                        <div class="sale">499$</div>
-                        <div class="price">499$</div>
-                    </div>
-                </div>
-                <div class="content_item">
-                    <div class="product_availability">&#9745; in stock</div>
-                    <div class="placeholder"></div>
-                    <div class="product_rating">&#9733; &#9733; &#9733; &#9733; &#9733;</div>
-                    <div class="product_info"> EX DISPLAY: Lorem ipsum dolor sit amet consectetur adipisicing elit. fdfdfdfdf  ddfd ff df</div>
-                    <div class="product_price">
-                        <div class="sale">499$</div>
-                        <div class="price">499$</div>
-                    </div>
-                </div>
             </section>
             
             <section class="page-list">
@@ -523,5 +344,7 @@
                 <div>Copyright © 2020 Shop Pty. Ltd.</div>
         </section>
     </footer>
+
+    <script src="scripts/catalog.js"></script>
 </body>
 </html>
