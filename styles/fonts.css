@@ -71,6 +71,7 @@
     text-decoration: underline 2px;
     text-decoration-color: #0156FF;
     text-underline-offset: 7px;
+    color: black !important;
 }
 
 .hided {

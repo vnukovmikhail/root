@@ -223,6 +223,8 @@ h4 a {
         justify-content: start;
         overflow: scroll;
         margin: 0 10px;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
     }
     .header_nav div {
         border: 1px solid rgba(0, 0, 0, .1);
@@ -265,6 +267,7 @@ h4 a {
     #search-input {
         height: 30px;
         width: 100%;
+        margin-left: 5px;
     }
 
     /*  */
